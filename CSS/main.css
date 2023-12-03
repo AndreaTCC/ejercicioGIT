@@ -1,0 +1,593 @@
+
+div#max-content-home {
+    margin: 5% 0;
+}
+
+#developmentsContentHome {
+    display: grid;
+}
+
+div#luxury-properties-label-home {
+    text-align: start;
+    margin-left: 5%;
+}
+
+div#developments-label-home {
+    text-align: start;
+    margin-left: 5%;
+}
+
+.worlwide-label {
+    font-size: 22px;
+    line-height: 23px;
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    color: #DF991B;
+}
+
+.properties-type-label {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 5%;  
+}
+
+#padreDevelopments {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+/*.imgDevelopments {
+    width: 407px;
+    height: 407px;
+    /*left: -1px;
+    top: -9px;
+    position: absolute;
+}*/
+
+.imgContentDevelopments {
+    height: 15vw;
+}
+
+.imgContentDevelopments img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textoDevelopments {
+    display: grid;
+    background: white;
+    padding: 1vw 0 1vw 2vw;
+
+}
+
+.nombreDevelopments {
+    
+    font-size: 17px;
+    line-height: 22px;  
+    font-family: PF Regal Display Pro;
+    font-style: normal;
+    font-weight: 400;  
+    color: #464547;
+    white-space: nowrap;
+    overflow: ellipsis;
+}
+
+.ciudadDevelopments {
+    font-size: 23px;
+    line-height: 27px;  
+    font-family: PF Regal Display Pro;
+    font-style: normal;
+    font-weight: 500;  
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+/*FOOTER */
+.general-container-footer-complement {
+    display: grid;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-template-rows: 1fr 1fr;
+}
+
+.footer-color-space {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: #26282B;
+}
+
+
+
+
+#join-the-list-content {
+    background: #26282B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 2vw 5vw 0 5vw;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    grid-template-rows: auto 1fr;
+}
+
+
+#join-footer-label {
+    grid-column: 1/2;
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #DF991B;
+    padding-top: 15px;
+}
+
+#unlock-footer-label {
+    grid-column: 1/2;
+    font-family: "PF Regal Display Pro";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 45px;
+    font-size: 50px;
+    color: #FFFFFF;
+    align-self: start;
+}
+
+
+
+#footer-last-design {
+    background-color: #26282B;
+}
+
+.int-footer-container {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+
+.gridFooter {
+    display: grid;
+    padding: 5% 0 5% 0;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin: 0 5% 0 5%;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+/*HEADER */
+
+#principal-header {
+    display: grid;
+    grid-template-rows: 5% auto;
+    margin: 0px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background: linear-gradient(to bottom , black 1%, rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),url("../IMG/mikail-mcverry-GSL3IuuwJv8-unsplash 1.png") no-repeat center;
+}
+
+
+
+
+
+.header2 {
+    display: grid;
+    grid-template-rows: 40% 10% 20% 30%;
+}
+
+
+
+
+
+
+
+div#properties-for-sale-content-home {
+    margin-bottom: 5%;
+}
+.grid-contetn-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+}
+
+div#gallery-properties-for-sale {
+    transform: scaleX(-1);
+}
+
+
+
+#gallery-properties-for-sale {
+    display: flex;
+   
+    /* justify-content: center; */
+    align-content: end;
+    overflow: hidden;
+}
+
+
+#real-sale-desc-home, #real-rent-desc-home {
+    margin: 0 10%;
+}
+
+.worlwide-label {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #DF991B;
+}
+
+.properties-type-label {
+    font-family: 'PF Regal Display Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 5%;
+}
+
+
+/*parte de la imagen */
+
+
+
+.parteImagen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.parte2Ima {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.a {
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 112.5% */
+}
+
+.e {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 65px; /* 81.25% */
+}
+
+
+
+.i {
+    color: #000;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 330;
+    line-height: 45px; /* 150% */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PARTE DEL TEXTO QUE VA EN EL FOOTER*/
+
+.imgUNIQ {
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0  
+}
+
+.textoFooter1 {
+    /*width: 77px;
+    height: 177px;
+    flex-shrink: 0;*/
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 25px; /* 150% */
+}
+
+.textoFooter2 {
+    /*width: 77px;
+    height: 177px;
+    flex-shrink: 0;*/
+    color: #B4B7B7;
+    text-align: right;
+    font-family: Brandon Grotesque;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 25px; /* 150% */
+}
+
+.textoFooterNum {
+    color: #FFF;
+    text-align: right;
+    font-family: PF Regal Display Pro;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 112.5% */
+}
+
+
+.copyrightFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1% 5% 0 5%;
+    border-top: 1px solid white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.textoFooter3{
+    color: #FFF;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 45px; /* 225% */
+}
+
+
+.principal {
+    min-height: 100%;
+
+}
+.nav-principal {
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.partede-iconos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.otro {
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 112.5% */
+
+}
+
+.otro3 {
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 112.5% */
+    writing-mode: vertical-lr;
+
+}
+
+
+.otro4 {
+    color: #B4B7B7;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 112.5% */
+
+}
+
+.otro5 {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 56.25% */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.texto-header {
+    display: grid;
+    grid-template-columns:  5% auto;
+}
+
+
+
+
+.header1 {
+    display: grid;
+    grid-template-rows: 60% 50%;
+    justify-content: center;
+}
+
+.iconos-rejilla1 {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+}
+
+.iconos-rejilla2 {
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    
+}
+.iconos {
+    align-items: center;
+
+}
+
+.input-text1 {
+    border-radius: 200px;
+    border: 3px solid white;
+    width: 90%;
+    height: 20%;
+    background-color: transparent;
+    background: url("../IMG/Group 241.png") no-repeat;
+    background-position: 90%;
+    padding-left: 30px;
+ 
+
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 225% */
+}
+.input-text2 {
+    border-radius: 200px;
+    border: 3px solid white;
+    width: 20%;
+    height: 20%;
+    background-color: transparent;
+    background: url("../IMG/Group 240 (1).png") no-repeat center;
+    background-position: 5%;
+    padding-left: 100px;
+ 
+
+    color: #FFF;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 150% */
+}
+
+.input-text3 {
+    border-radius: 200px;
+    border: 3px solid white;
+    width: 90%;
+    height: 20%;
+    background-color: transparent;
+    background-position: 5%;
+    padding-left: 50px;
+ 
+
+    color: #7E7E7E;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 225% */
+}
+
+.input-text4 {
+    border-radius: 200px;
+    border: 3px solid #DF991B;
+    width: 50%;
+    height: 20%;
+    background-color: transparent;
+ 
+
+    color: #DF991B;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 150% */
+}
+
+.derecha {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 2%;
+}
+
+
+
+
+.contenedor1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.input-text6 {
+    border-radius: 200px;
+    border: 3px solid black;
+    width: 50%;
+    height: 20%;
+    background-color: transparent;
+ 
+
+    color: black;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 150% */
+}
+
+.contenedor-textos-1 {
+    display: grid;
+    grid-template-rows: 0 30% 30% 30%;
+    align-items: center;
+
+}
+
+
