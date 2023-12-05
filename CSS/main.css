@@ -1,285 +1,490 @@
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
 
-div#max-content-home {
-    margin: 5% 0;
-}
-
-#developmentsContentHome {
+/* BODY*/
+body {
     display: grid;
-}
-
-div#luxury-properties-label-home {
-    text-align: start;
-    margin-left: 5%;
-}
-
-div#developments-label-home {
-    text-align: start;
-    margin-left: 5%;
-}
-
-.worlwide-label {
-    font-size: 22px;
-    line-height: 23px;
-    font-family: 'PF Regal Display Pro';
-    font-style: normal;
-    font-weight: 400;
-    color: #DF991B;
-}
-
-.properties-type-label {
-    font-size: 30px;
-    line-height: 30px;
-    font-family: 'PF Regal Display Pro';
-    font-style: normal;
-    font-weight: 500;
-    color: #000000;
-    margin-bottom: 5%;  
-}
-
-#padreDevelopments {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 5% 0 5%;
-    column-gap: 25px;
-    row-gap: 25px;
-}
-/*.imgDevelopments {
-    width: 407px;
-    height: 407px;
-    /*left: -1px;
-    top: -9px;
-    position: absolute;
-}*/
-
-.imgContentDevelopments {
-    height: 15vw;
-}
-
-.imgContentDevelopments img{
-    object-fit: cover;
+    background-color: white;
     width: 100%;
-    height: 100%;
-
 }
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
 
-.textoDevelopments {
-    display: grid;
-    background: white;
-    padding: 1vw 0 1vw 2vw;
+/* CONTENEDOR HEADER*/
 
-}
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+    .header {
+        background-size: contain;
+        background: linear-gradient(to bottom , black 1%, rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),url("../IMG/header.jpg")no-repeat;
+        background-position: center;
+        height: 150vh;
+    }
+    .derecha {
+        margin-top: 5%;
+        align-items: center;
+        margin-right: 5%;
+    }
 
-.nombreDevelopments {
+    .input-text1 {
+        border-radius: 200px;
+        border: 3px solid white;
+        width: 90%;
+        height: 20%;
+        background-color: transparent;
+        background: url("../IMG/Group 241.png") no-repeat;
+        background-position: 90%;
+        padding-left: 30px;
+        margin-top: 2%;
+     
     
-    font-size: 17px;
-    line-height: 22px;  
-    font-family: PF Regal Display Pro;
-    font-style: normal;
-    font-weight: 400;  
-    color: #464547;
-    white-space: nowrap;
-    overflow: ellipsis;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px; /* 225% */
+        
+    }
 }
 
-.ciudadDevelopments {
-    font-size: 23px;
-    line-height: 27px;  
-    font-family: PF Regal Display Pro;
-    font-style: normal;
-    font-weight: 500;  
-    color: #000000;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+    .header {
+        background-size: cover;
+        background: linear-gradient(to bottom , black 1%, rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),url("../IMG/mikail-mcverry-GSL3IuuwJv8-unsplash 1.png")no-repeat;
+        background-position: center;
+        height: 80vh;
+    }
+    .derecha {
+        margin-left: 60%;
+    }
+
+    .input-text1 {
+        border-radius: 200px;
+        border: 3px solid white;
+        width: 70%;
+        height: 20%;
+        background-color: transparent;
+        background: url("../IMG/Group 241.png") no-repeat;
+        background-position: 90%;
+        padding-left: 30px;
+        margin-left: 20%;
+        margin-top: 5%;
+     
+    
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px; /* 225% */
+        
+    }
 }
 
-
-
-
-/*FOOTER */
-.general-container-footer-complement {
-    display: grid;
-    grid-template-columns: 5vw 1fr 5vw;
-    grid-template-rows: 1fr 1fr;
-}
-
-.footer-color-space {
-    grid-column: 1/4;
-    grid-row: 2/3;
-    background-color: #26282B;
-}
-
-
-
-
-#join-the-list-content {
-    background: #26282B;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 15px;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 2vw 5vw 0 5vw;
-    grid-row: 1/3;
-    grid-column: 2/3;
-    grid-template-rows: auto 1fr;
-}
-
-
-#join-footer-label {
-    grid-column: 1/2;
-    font-family: "PF Regal Display Pro";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    font-size: 35px;
-    line-height: 45px;
-    color: #DF991B;
-    padding-top: 15px;
-}
-
-#unlock-footer-label {
-    grid-column: 1/2;
-    font-family: "PF Regal Display Pro";
-    font-style: normal;
-    font-weight: 100;
-    font-size: 45px;
-    font-size: 50px;
-    color: #FFFFFF;
-    align-self: start;
-}
-
-
-
-#footer-last-design {
-    background-color: #26282B;
-}
-
-.int-footer-container {
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-}
-
-
-.gridFooter {
-    display: grid;
-    padding: 5% 0 5% 0;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
-    margin: 0 5% 0 5%;
-    column-gap: 25px;
-    row-gap: 25px;
-}
-
-/*HEADER */
-
-#principal-header {
+.contenedor-header {
     display: grid;
     grid-template-rows: 5% auto;
-    margin: 0px;
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
-    background: linear-gradient(to bottom , black 1%, rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),url("../IMG/mikail-mcverry-GSL3IuuwJv8-unsplash 1.png") no-repeat center;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
+.nav-principal {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid white;
+      
+}
 
+.nav-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-right: 1px solid white;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
+.nav-img {
+    margin-left: 30%;
+}
 
+.header {
+    background-size: cover;
+    background: linear-gradient(to bottom , black 1%, rgba(5, 7, 12, 0.35), rgba(5, 7, 12, 0.35)),url("../IMG/mikail-mcverry-GSL3IuuwJv8-unsplash 1.png")no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
+.texto-header {
+    display: grid;
+    grid-template-columns: 1% auto;
+}
+
+.header1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: fixed;
+}
 
 .header2 {
     display: grid;
-    grid-template-rows: 40% 10% 20% 30%;
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
 }
 
-
-
-
-
-
-
-div#properties-for-sale-content-home {
-    margin-bottom: 5%;
-}
-.grid-contetn-home {
+.iconos-rejilla1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: red;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
 }
 
-div#gallery-properties-for-sale {
-    transform: scaleX(-1);
-}
-
-
-
-#gallery-properties-for-sale {
-    display: flex;
-   
-    /* justify-content: center; */
-    align-content: end;
-    overflow: hidden;
+.iconos-rejilla2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+    row-gap: 20px;    
 }
 
 
-#real-sale-desc-home, #real-rent-desc-home {
-    margin: 0 10%;
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* CONTENEDOR 1 SECCIÓN Properties for sale*/
+
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+    .contenedor1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+    .header1 {
+        display: none;
+    }
+
+    .input-text2 {
+        border-radius: 200px;
+        border: 3px solid white;
+        width: 70%;
+        height: 20%;
+        background-color: transparent;
+        background: url("../IMG/Group 240 (1).png") no-repeat center;
+        background-position: 5%;
+        padding-left: 100px;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px; /* 150% */
+    }
+    .nav-1 {
+        display: none;
+    }
+
+    .nav-img {
+        margin-left: 200%;
+    }
+
+  
 }
 
-.worlwide-label {
-    font-family: 'PF Regal Display Pro';
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+    .contenedor1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+
+    .galeria1 {
+        order: -1;
+    }
+
+    .input-text2 {
+        border-radius: 200px;
+        border: 3px solid white;
+        width: 30%;
+        height: 20%;
+        background-color: transparent;
+        background: url("../IMG/Group 240 (1).png") no-repeat center;
+        background-position: 5%;
+        padding-left: 100px;
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 390;
+        line-height: 45px; /* 150% */
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* CONTENEDOR 2 SECCIÓN Properties for rent*/
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+    .contenedor2 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+    .contenedor2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* CONTENEDOR 3 SECCIÓN Developments*/
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+    .contenedor3-principal {
+        display: grid;
+        grid-template-rows: 0.5fr 1.5fr 8fr;
+        align-items: center;
+        background-color: white;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    
+    .contenedor3-principal {
+        display: none;
+    }
+
+    .contenedor3-principal2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+    .contenedor3-principal {
+        display: grid;
+        grid-template-rows: 0.5fr 1.5fr 8fr;
+        align-items: center;
+        background-color: white;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contenedor3-secundario {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .imgContentDevelopments {
+        height: 10vw;
+    }
+    
+    .imgContentDevelopments img{
+        object-fit: cover;
+        width: 95%;
+        height: 100%;
+    }
+
+    .contenedor3-principal2 {
+        display: none;
+    }
+}
+
+
+
+
+.nombre-contenedor-Developments {
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    color: #DF991B;
+    line-height: 45px; /* 180% */
 }
 
-.properties-type-label {
-    font-family: 'PF Regal Display Pro';
+.ciudad-contenedor-Developments {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-    color: #000000;
-    margin-bottom: 5%;
+    line-height: 45px; /* 112.5% */
 }
 
-
-/*parte de la imagen */
-
-
-
-.parteImagen {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-.parte2Ima {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    
+.img-contenedor-3:hover{
+    transform: translateY(-10%);
+    transition: 0.4s;
 }
 
-.a {
+.texto1-contenedor-developments {
     color: #DF991B;
     font-family: PF Regal Display Pro;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: 45px; /* 112.5% */
+    text-align: center;
 }
 
-.e {
+.texto2-contenedor-developments {
     color: #000;
     font-family: PF Regal Display Pro;
     font-size: 80px;
     font-style: normal;
     font-weight: 500;
     line-height: 65px; /* 81.25% */
+    text-align: center;
+}
+
+.contenedor3-texto-Developments {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: transparent;
+    padding: 1vw 1vw;
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* CONTENEDOR 4 SECCIÓN Services*/
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+   
+    .parteImagen {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    } 
+
+    .gridFooter-movil {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        column-gap: 20px;
+
+    }
+
+    .colum1 {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .colum2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .gridFooter {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+    .parteImagen {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contendor-galeria-imagenes1 {
+        order: -1;
+    }
+
+    .gridFooter-movil {
+        display: none;
+    }
 }
 
 
+.parte2Ima {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
+    row-gap: 10px;
+    column-gap: auto;
+    
+}
 
-.i {
+.contendor-galeria-imagenes1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.contendor-galeria-imagenes2 {
+    width: 95%;
+    height: 95%;
+    padding-top: 5%;
+    padding-right: 5%;
+    
+}
+
+.contendor-galeria-imagenes2 img{
+    width: 100%;
+    height: 90%;
+}
+
+.texto1-contenedor {
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.texto2-contenedor {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.texto3-contenedor {
     color: #000;
     font-family: Brandon Grotesque;
     font-size: 30px;
@@ -291,48 +496,190 @@ div#gallery-properties-for-sale {
 
 
 
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
 
+/*CONTENEDOR SECCIÓN FOOTER*/
 
+/*FOOTER PRIMER CUADRO */
+.padre{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*PARTE DEL TEXTO QUE VA EN EL FOOTER*/
-
-.imgUNIQ {
-    width: 200px;
-    height: 20px;
-    flex-shrink: 0  
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: sticky;
 }
 
-.textoFooter1 {
-    /*width: 77px;
-    height: 177px;
-    flex-shrink: 0;*/
-    color: #B4B7B7;
+
+@media only screen and (min-width: 320px) and (max-width: 1023px)  {
+    
+    .contenedor-principal-footer-1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        background-color:#26282B;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+    }
+
+    .texto-footer-1 {
+        color: #FFF;
+
+        font-family: Brandon Grotesque;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 330;
+        line-height: 45px; /* 150% */
+    }
+    
+    .texto-footer-2 {
+        color: #FFF;
+        font-family: PF Regal Display Pro;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px; /* 108.333% */
+    }
+    
+    .texto-footer-3 {
+        color: #FFF;
+        font-family: Brandon Grotesque;
+        font-size: 10px;
+        font-style: normal;
+        margin-left: 20%;
+    }
+
+    .textoFooter-Num {
+        color: #FFF;
+        text-align: right;
+        font-family: PF Regal Display Pro;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 45px; /* 112.5% */
+    }
+
+    .principal-footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2400px)  {
+
+    .contenedor-principal-footer-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #26282B;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 2%;
+        z-index: -1;
+    }
+    .gridFooter {
+        display: none;
+    }
+
+    .principal-footer-movil {
+        display: none;
+    }
+    
+}
+
+.contenedor-principal-texto-footer-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 10%;
+    background-color: #26282B;;
+}
+
+.contenedor-principal-input-footer-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #26282B;;
+}
+
+.texto-footer-1 {
+    color: #DF991B;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 112.5% */
+}
+
+.texto-footer-2 {
+    color: #FFF;
+    font-family: PF Regal Display Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 108.333% */
+}
+
+.texto-footer-3 {
+    color: #FFF;
     font-family: Brandon Grotesque;
     font-size: 25px;
     font-style: normal;
+    margin-left: 20%;
+}
+
+.input-text3 {
+    border-radius: 200px;
+    border: 3px solid white;
+    height: 80%;
+    background-color: transparent;
+    background-position: 5%;
+    padding-left: 50px;
+    color: #7E7E7E;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 390;
-    line-height: 25px; /* 150% */
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.input-text4 {
+    border-radius: 200px;
+    border: 3px solid #DF991B;
+    height: 80%;
+    background-color: transparent;
+    color: #DF991B;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+/*FOOTER SEGUNDO CUADRO */
+
+.int-footer-container {
+    display: grid;
+    grid-template-rows: 4fr 0.5fr;
+    background-color: black;
+}
+
+
+.gridFooter {
+    display: grid;
+    padding: 5% 0 5% 0;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin: 0 5% 0 5%;
+}
+
+
+.textoFooter1 {
+    color: #B4B7B7;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 10px; /* 150% */
 }
 
 .textoFooter2 {
@@ -346,6 +693,16 @@ div#gallery-properties-for-sale {
     font-style: normal;
     font-weight: 390;
     line-height: 25px; /* 150% */
+}
+
+.textoFooter3{
+    color: #FFF;
+    text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 45px; /* 225% */
 }
 
 .textoFooterNum {
@@ -368,26 +725,174 @@ div#gallery-properties-for-sale {
     padding-bottom: 1%;
 }
 
-.textoFooter3{
-    color: #FFF;
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+.general-container-footer-complement {
+    display: grid;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-template-rows: 1fr 1fr;
+    background-color:#26282B;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------------------------------------------------------*/
+
+/* ESTILOS QUE COMPARTEN LOS CONTENEDORES 1 - 2 - 3 - 4*/
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.galeria2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.contenedor-textos-1 {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 2fr 0.5fr;
+}
+
+.button-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 0%;
+}
+
+.button-texto-contenedor {
+    border-radius: 200px;
+    border: 3px solid black;
+    /*width: 30%;
+    height: 20%;*/
+    background-color: white;
+    color: black;
     text-align: center;
+    font-family: Brandon Grotesque;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 150% */
+}
+
+.button-texto-contenedor:hover {
+    background: gray;
+}
+
+.PREV {
+
+    margin-top: 5%;
+    background: url("../IMG/Vector (4).png") no-repeat center;
+    background-position: 5%;
+    background-position: left;
+    color: #B4B7B7;
     font-family: Brandon Grotesque;
     font-size: 20px;
     font-style: normal;
-    font-weight: 450;
+    font-weight: 390;
     line-height: 45px; /* 225% */
+    text-align: center;
 }
 
+.NEXT {
+    margin-top: 5%;
+    background: url("../IMG/Vector (5).png") no-repeat center;
+    background-position: 5%;
+    background-position: right;
+    color: #DF991B;
+    font-family: Brandon Grotesque;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 390;
+    line-height: 45px; /* 225% */
+    text-align: center;
+}
+
+.textoDevelopments {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background: transparent;
+    padding: 1vw 1vw;
+
+}
+.textoDevelopments:hover{
+    background: white;
+}
+
+.nombreDevelopments {
+    color: #464547;
+    font-family: PF Regal Display Pro;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 180% */
+}
+
+.ciudadDevelopments {
+    color: #000;
+    font-family: PF Regal Display Pro;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 112.5% */
+}
+
+.contendor-galeria-imagenes {
+    height: 40vh;
+}
+
+.contendor-galeria-imagenes img{
+    object-fit: cover;
+    width: 95%;
+    height: 100%;
+
+}
+
+
+
+div#properties-for-sale-content-home {
+    margin-bottom: 5%;
+}
+.grid-contetn-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: red;
+}
+
+div#gallery-properties-for-sale {
+    transform: scaleX(-1);
+}
+
+#gallery-properties-for-sale {
+    display: flex;
+   
+    /* justify-content: center; */
+    align-content: end;
+    overflow: hidden;
+}
+
+/*PARTE DEL TEXTO QUE VA EN EL FOOTER*/
+
+.imgUNIQ {
+    width: 200px;
+    height: 20px;
+    flex-shrink: 0  
+}
 
 .principal {
     min-height: 100%;
 
-}
-.nav-principal {
-    display: grid;
-    grid-template-columns: 15fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid white;
 }
 
 .partede-iconos {
@@ -417,7 +922,6 @@ div#gallery-properties-for-sale {
 
 }
 
-
 .otro4 {
     color: #B4B7B7;
     font-family: PF Regal Display Pro;
@@ -442,152 +946,14 @@ a {
     text-decoration: none;
 }
 
-.texto-header {
-    display: grid;
-    grid-template-columns:  5% auto;
-}
-
-
-
-
-.header1 {
-    display: grid;
-    grid-template-rows: 60% 50%;
-    justify-content: center;
-}
-
-.iconos-rejilla1 {
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-    align-items: center;
-}
-
-.iconos-rejilla2 {
-    display: grid;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
-    
-}
 .iconos {
     align-items: center;
 
 }
 
-.input-text1 {
-    border-radius: 200px;
-    border: 3px solid white;
-    width: 90%;
-    height: 20%;
-    background-color: transparent;
-    background: url("../IMG/Group 241.png") no-repeat;
-    background-position: 90%;
-    padding-left: 30px;
- 
 
-    color: #FFF;
-    font-family: Brandon Grotesque;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 390;
-    line-height: 45px; /* 225% */
-}
-.input-text2 {
-    border-radius: 200px;
-    border: 3px solid white;
-    width: 20%;
-    height: 20%;
-    background-color: transparent;
-    background: url("../IMG/Group 240 (1).png") no-repeat center;
-    background-position: 5%;
-    padding-left: 100px;
- 
 
-    color: #FFF;
-    font-family: Brandon Grotesque;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 390;
-    line-height: 45px; /* 150% */
-}
-
-.input-text3 {
-    border-radius: 200px;
-    border: 3px solid white;
-    width: 90%;
-    height: 20%;
-    background-color: transparent;
-    background-position: 5%;
-    padding-left: 50px;
- 
-
-    color: #7E7E7E;
-    font-family: Brandon Grotesque;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 390;
-    line-height: 45px; /* 225% */
-}
-
-.input-text4 {
-    border-radius: 200px;
-    border: 3px solid #DF991B;
-    width: 50%;
-    height: 20%;
-    background-color: transparent;
- 
-
-    color: #DF991B;
-    text-align: center;
-    font-family: Brandon Grotesque;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 390;
-    line-height: 45px; /* 150% */
-}
-
-.derecha {
+.izquierda {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding-top: 2%;
+    grid-template-rows: 1fr 1fr 2fr;
 }
-
-
-
-
-.contenedor1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.galeria1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
-
-.input-text6 {
-    border-radius: 200px;
-    border: 3px solid black;
-    width: 50%;
-    height: 20%;
-    background-color: transparent;
- 
-
-    color: black;
-    text-align: center;
-    font-family: Brandon Grotesque;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 390;
-    line-height: 45px; /* 150% */
-}
-
-.contenedor-textos-1 {
-    display: grid;
-    grid-template-rows: 0 30% 30% 30%;
-    align-items: center;
-
-}
-
-
